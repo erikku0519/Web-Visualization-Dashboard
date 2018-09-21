@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WeatherPy Web Visualization</title>
+
+  <!-- Loading Bootstrap-->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></head>
+ 
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" type="text/css" href="weather.css">
+    
+  </head>
+    <body style="background-color: rgba(0, 0, 0, 0.082)">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- emply col to move over text -->
+            <div class="col-md-1"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-1"></div>
+            <a class="navbar-brand" href="index.html" style="color: white; background-color: #14A989;;">
+              <span class="nav-color">Latitude</span>
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="temperature.html">Temperature</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="cloudiness.html">Cloud Cover</a></li>
+              <li><a href="wind_speed.html">Wind Speed</a></li>
+  
+            </ul>
+          </li>
+          <li><a href="comparisons.html">Comparisons</a></li>
+          <li><a href="data.html">Data</a></li>
+          
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-7">
+  
+              <div class="panel panel-default">
+                  <div class="panel-body">
+                    <h2 class=text-info>vs Wind Speed</h2>
+                    <hr>
+                    <img class = "img-responsive" src="Images/Fig4.png" style="width:100%; margin: 5px;" alt="first image" >
+                    <p> Based on the data, there is no strong relationship between latitude and wind speed. Most of the cities in the dataset have wind speed of less than 10 mph.</p>
+                  </div>
+                </div>
+  
+          </div>
+          <div class="col-md-3">
+  
+              <div class="panel panel-default">
+                  <div class="panel-body">
+                      
+                    <h2 class=text-info>Visualizations</h2>
+                    <hr>
+                    <div class="row" style = "padding-bottom: 10px">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="Images/Fig1.png" style="width:100%" alt=""></a></div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="Images/Fig2.png" style="width:100%" alt=""></a></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class = "img img-responsive" src="Images/Fig3.png" style="width:100%" alt=""></a></div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="wind_speed.html"><img class = "img img-responsive current-tag" src="Images/Fig4.png" style="width:100%" alt=""></a></div>
+                    </div>
+                
+                </div>
+  
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+  
+  
+      </div>
+    </div>
+
+      <footer>
+        <p style = "text-align: center">© Copyright: Eric Jung, USC Viterbi Data Analytics Bootcamp 2018</p>
+            
+    </footer>
+   
+
+        
+    
+  </body>
+</html>
