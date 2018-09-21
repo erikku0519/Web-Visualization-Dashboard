@@ -11,10 +11,10 @@ Convert CSV (http://www.convertcsv.com/csv-to-html.htm)
 
 
 ## Website Requirements
-Landing Page <br>
-Visualization Pages
-Comparison Page
-Data Page
+Landing Page<br>
+Visualization Pages<br>
+Comparison Page<br>
+Data Page<br>
 
 ## Author
 Eric Jung
