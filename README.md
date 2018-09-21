@@ -13,10 +13,10 @@ Convert CSV (http://www.convertcsv.com/csv-to-html.htm)
 ## Website Requirements
 Landing Page (index.html)<br>
 Visualization Pages<br>
--temperature.html<br>
--humidity.html<br>
--cloudiness.html<br>
--wind_speed.html<br>
+- temperature.html<br>
+- humidity.html<br>
+- cloudiness.html<br>
+- wind_speed.html<br>
 
 Comparison Page (comparisons.html)<br>
 Data Page(data.html)<br>
